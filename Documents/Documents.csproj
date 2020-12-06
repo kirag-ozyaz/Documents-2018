@@ -89,7 +89,9 @@
       <HintPath>..\..\..\EIS (Original)\RequestsClient.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\LIB\MySQL-6.9.8\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Prv">
       <HintPath>..\..\..\EIS (Original)\Prv.dll</HintPath>
     </Reference>
