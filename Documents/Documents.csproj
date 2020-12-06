@@ -33,7 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FormLbr">
-      <HintPath>..\..\..\EIS (Original)\FormLbr.dll</HintPath>
+      <HintPath>..\..\LIB\FormLbr.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common">
+      <HintPath>..\..\LIB\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Windows.Forms" />
@@ -41,18 +44,18 @@
     <Reference Include="WindowsBase" />
     <Reference Include="System.Data" />
     <Reference Include="DataSql">
-      <HintPath>..\..\..\EIS (Original)\DataSql.dll</HintPath>
+      <HintPath>..\..\LIB\DataSql.dll</HintPath>
     </Reference>
     <Reference Include="ControlsLbr">
-      <HintPath>..\..\..\EIS (Original)\ControlsLbr.dll</HintPath>
+      <HintPath>..\..\LIB\ControlsLbr.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="Microsoft.ReportViewer.WinForms">
-      <HintPath>..\..\..\EIS (Original)\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <HintPath>..\..\LIB\Microsoft.ReportViewer.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Constants">
-      <HintPath>..\..\..\EIS (Original)\Constants.dll</HintPath>
+      <HintPath>..\..\LIB\Constants.dll</HintPath>
     </Reference>
     <Reference Include="WindowsFormsIntegration" />
     <Reference Include="System.Core" />
@@ -60,43 +63,43 @@
       <HintPath>..\..\..\EIS (Original)\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
     <Reference Include="WinDocking">
-      <HintPath>..\..\..\EIS (Original)\WinDocking.dll</HintPath>
+      <HintPath>..\..\LIB\WinDocking.dll</HintPath>
     </Reference>
     <Reference Include="Passport">
-      <HintPath>..\..\..\EIS (Original)\Passport.dll</HintPath>
+      <HintPath>..\..\LIB\Passport.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Forms.DataVisualization">
-      <HintPath>..\..\..\EIS (Original)\System.Windows.Forms.DataVisualization.dll</HintPath>
+      <HintPath>..\..\LIB\System.Windows.Forms.DataVisualization.dll</HintPath>
     </Reference>
     <Reference Include="SchemeModel">
-      <HintPath>..\..\..\EIS (Original)\SchemeModel.dll</HintPath>
+      <HintPath>..\..\LIB\SchemeModel.dll</HintPath>
     </Reference>
     <Reference Include="Interop.Domino">
-      <HintPath>..\..\..\EIS (Original)\Interop.Domino.dll</HintPath>
+      <HintPath>..\..\LIB\Interop.Domino.dll</HintPath>
     </Reference>
     <Reference Include="PresentationFramework" />
     <Reference Include="PresentationCore" />
     <Reference Include="Contractor">
-      <HintPath>..\..\..\EIS (Original)\Contractor.dll</HintPath>
+      <HintPath>..\..\LIB\Contractor.dll</HintPath>
     </Reference>
     <Reference Include="OfficeLB">
-      <HintPath>..\..\..\EIS (Original)\OfficeLB.dll</HintPath>
+      <HintPath>..\..\LIB\OfficeLB.dll</HintPath>
     </Reference>
     <Reference Include="Reference">
-      <HintPath>..\..\..\EIS (Original)\Reference.dll</HintPath>
+      <HintPath>..\..\LIB\Reference.dll</HintPath>
     </Reference>
     <Reference Include="RequestsClient">
-      <HintPath>..\..\..\EIS (Original)\RequestsClient.dll</HintPath>
+      <HintPath>..\..\LIB\RequestsClient.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="MySql.Data">
       <HintPath>..\..\LIB\MySQL-6.9.8\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Prv">
-      <HintPath>..\..\..\EIS (Original)\Prv.dll</HintPath>
+      <HintPath>..\..\LIB\Prv.dll</HintPath>
     </Reference>
     <Reference Include="Legal">
-      <HintPath>..\..\..\EIS (Original)\Legal.dll</HintPath>
+      <HintPath>..\..\LIB\Legal.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

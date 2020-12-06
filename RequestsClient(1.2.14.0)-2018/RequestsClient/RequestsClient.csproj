@@ -32,16 +32,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ControlsLbr">
-      <HintPath>..\..\LIB\ControlsLbr.dll</HintPath>
+      <HintPath>..\..\..\LIB\ControlsLbr.dll</HintPath>
     </Reference>
     <Reference Include="DataSql">
-      <HintPath>..\..\..\EIS (Original)\DataSql.dll</HintPath>
+      <HintPath>..\..\..\LIB\DataSql.dll</HintPath>
     </Reference>
     <Reference Include="FormLbr">
-      <HintPath>..\..\..\EIS (Original)\FormLbr.dll</HintPath>
+      <HintPath>..\..\..\LIB\FormLbr.dll</HintPath>
     </Reference>
     <Reference Include="SchemeModel">
-      <HintPath>..\..\..\2017-программы\de4dot2018\SchemeModel-cleaned.dll</HintPath>
+      <HintPath>..\..\..\LIB\SchemeModel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
