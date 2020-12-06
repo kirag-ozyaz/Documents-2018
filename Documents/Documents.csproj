@@ -1,0 +1,1596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92A040C6-BE1C-4F01-BB85-682B6FF568D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Documents</RootNamespace>
+    <AssemblyName>Documents</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FormLbr">
+      <HintPath>..\..\..\EIS (Original)\FormLbr.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Data" />
+    <Reference Include="DataSql">
+      <HintPath>..\..\..\EIS (Original)\DataSql.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlsLbr">
+      <HintPath>..\..\..\EIS (Original)\ControlsLbr.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\..\..\EIS (Original)\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Constants">
+      <HintPath>..\..\..\EIS (Original)\Constants.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\..\..\EIS (Original)\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="WinDocking">
+      <HintPath>..\..\..\EIS (Original)\WinDocking.dll</HintPath>
+    </Reference>
+    <Reference Include="Passport">
+      <HintPath>..\..\..\EIS (Original)\Passport.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization">
+      <HintPath>..\..\..\EIS (Original)\System.Windows.Forms.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="SchemeModel">
+      <HintPath>..\..\..\EIS (Original)\SchemeModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Domino">
+      <HintPath>..\..\..\EIS (Original)\Interop.Domino.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="Contractor">
+      <HintPath>..\..\..\EIS (Original)\Contractor.dll</HintPath>
+    </Reference>
+    <Reference Include="OfficeLB">
+      <HintPath>..\..\..\EIS (Original)\OfficeLB.dll</HintPath>
+    </Reference>
+    <Reference Include="Reference">
+      <HintPath>..\..\..\EIS (Original)\Reference.dll</HintPath>
+    </Reference>
+    <Reference Include="RequestsClient">
+      <HintPath>..\..\..\EIS (Original)\RequestsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="Prv">
+      <HintPath>..\..\..\EIS (Original)\Prv.dll</HintPath>
+    </Reference>
+    <Reference Include="Legal">
+      <HintPath>..\..\..\EIS (Original)\Legal.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cache.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class10.cs" />
+    <Compile Include="Class119.cs" />
+    <Compile Include="Class121.cs" />
+    <Compile Include="Class122.cs" />
+    <Compile Include="Class123.cs" />
+    <Compile Include="Class124.cs" />
+    <Compile Include="Class125.cs" />
+    <Compile Include="Class126.cs" />
+    <Compile Include="Class129.cs" />
+    <Compile Include="Class130.cs" />
+    <Compile Include="Class165.cs" />
+    <Compile Include="Class166.cs" />
+    <Compile Include="Class167.cs" />
+    <Compile Include="Class171.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class222.cs" />
+    <Compile Include="Class223.cs" />
+    <Compile Include="Class224.cs" />
+    <Compile Include="Class225.cs" />
+    <Compile Include="Class226.cs" />
+    <Compile Include="Class227.cs" />
+    <Compile Include="Class228.cs" />
+    <Compile Include="Class229.cs" />
+    <Compile Include="Class230.cs" />
+    <Compile Include="Class255.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class469.cs" />
+    <Compile Include="Class498.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class537.cs" />
+    <Compile Include="Class548.cs" />
+    <Compile Include="Class585.cs" />
+    <Compile Include="Class586.cs" />
+    <Compile Include="Class587.cs" />
+    <Compile Include="Class588.cs" />
+    <Compile Include="Class589.cs" />
+    <Compile Include="Class590.cs" />
+    <Compile Include="Class591.cs" />
+    <Compile Include="Class592.cs" />
+    <Compile Include="Class593.cs" />
+    <Compile Include="Class594.cs" />
+    <Compile Include="Class595.cs" />
+    <Compile Include="Class596.cs" />
+    <Compile Include="Class597.cs" />
+    <Compile Include="Class598.cs" />
+    <Compile Include="Class599.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class600.cs" />
+    <Compile Include="Class602.cs" />
+    <Compile Include="Class603.cs" />
+    <Compile Include="Class604.cs" />
+    <Compile Include="Class605.cs" />
+    <Compile Include="Class606.cs" />
+    <Compile Include="Class607.cs" />
+    <Compile Include="Class608.cs" />
+    <Compile Include="Class609.cs" />
+    <Compile Include="Class610.cs" />
+    <Compile Include="Class611.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="ClassesDoc.cs" />
+    <Compile Include="DataRetriever.cs" />
+    <Compile Include="DataSets\DataSetAbnObjAct.cs" />
+    <Compile Include="Enum0.cs" />
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Enum13.cs" />
+    <Compile Include="Enum15.cs" />
+    <Compile Include="Enum18.cs" />
+    <Compile Include="Enum19.cs" />
+    <Compile Include="Enum2.cs" />
+    <Compile Include="Enum20.cs" />
+    <Compile Include="Enum24.cs" />
+    <Compile Include="Enum25.cs" />
+    <Compile Include="Enum26.cs" />
+    <Compile Include="Enum4.cs" />
+    <Compile Include="Enum5.cs" />
+    <Compile Include="Form0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form0.Designer.cs">
+      <DependentUpon>Form0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDocChangeOwnerShipAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocChangeOwnerShipAddEdit.Designer.cs">
+      <DependentUpon>FormDocChangeOwnerShipAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.cs">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24.Designer.cs">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.cs">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26.Designer.cs">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form27.Designer.cs">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form28.Designer.cs">
+      <DependentUpon>Form28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJournalOrderAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJournalOrderAddEdit.Designer.cs">
+      <DependentUpon>FormJournalOrderAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form30.Designer.cs">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.cs">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.cs">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.cs">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.cs">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.cs">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.cs">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.cs">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form39.Designer.cs">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form40.Designer.cs">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form41.Designer.cs">
+      <DependentUpon>Form41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form42.Designer.cs">
+      <DependentUpon>Form42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form43.Designer.cs">
+      <DependentUpon>Form43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form44.Designer.cs">
+      <DependentUpon>Form44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form45.Designer.cs">
+      <DependentUpon>Form45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form46.Designer.cs">
+      <DependentUpon>Form46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form47.Designer.cs">
+      <DependentUpon>Form47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form48.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form48.Designer.cs">
+      <DependentUpon>Form48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form49.Designer.cs">
+      <DependentUpon>Form49.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form50.Designer.cs">
+      <DependentUpon>Form50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form51.Designer.cs">
+      <DependentUpon>Form51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form52.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form52.Designer.cs">
+      <DependentUpon>Form52.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form53.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form53.Designer.cs">
+      <DependentUpon>Form53.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form54.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form54.Designer.cs">
+      <DependentUpon>Form54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form55.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form55.Designer.cs">
+      <DependentUpon>Form55.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form56.Designer.cs">
+      <DependentUpon>Form56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form57.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form57.Designer.cs">
+      <DependentUpon>Form57.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form58.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form58.Designer.cs">
+      <DependentUpon>Form58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExcavationAddEdit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExcavationAddEdit2.Designer.cs">
+      <DependentUpon>FormExcavationAddEdit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form60.Designer.cs">
+      <DependentUpon>Form60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form61.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form61.Designer.cs">
+      <DependentUpon>Form61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form62.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form62.Designer.cs">
+      <DependentUpon>Form62.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form63.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form63.Designer.cs">
+      <DependentUpon>Form63.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form64.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form64.Designer.cs">
+      <DependentUpon>Form64.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form65.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form65.Designer.cs">
+      <DependentUpon>Form65.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form66.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form66.Designer.cs">
+      <DependentUpon>Form66.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportAct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportAct.Designer.cs">
+      <DependentUpon>FormReportAct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form68.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form68.Designer.cs">
+      <DependentUpon>Form68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form69.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form69.Designer.cs">
+      <DependentUpon>Form69.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form70.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form70.Designer.cs">
+      <DependentUpon>Form70.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form71.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form71.Designer.cs">
+      <DependentUpon>Form71.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form72.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form72.Designer.cs">
+      <DependentUpon>Form72.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form73.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form73.Designer.cs">
+      <DependentUpon>Form73.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form74.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form74.Designer.cs">
+      <DependentUpon>Form74.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form75.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form75.Designer.cs">
+      <DependentUpon>Form75.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form76.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form76.Designer.cs">
+      <DependentUpon>Form76.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form77.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form77.Designer.cs">
+      <DependentUpon>Form77.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form78.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form78.Designer.cs">
+      <DependentUpon>Form78.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form79.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form79.Designer.cs">
+      <DependentUpon>Form79.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form80.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form80.Designer.cs">
+      <DependentUpon>Form80.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form81.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form81.Designer.cs">
+      <DependentUpon>Form81.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form82.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form82.Designer.cs">
+      <DependentUpon>Form82.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form83.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form83.Designer.cs">
+      <DependentUpon>Form83.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form84.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form84.Designer.cs">
+      <DependentUpon>Form84.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form85.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form85.Designer.cs">
+      <DependentUpon>Form85.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form86.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form86.Designer.cs">
+      <DependentUpon>Form86.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form87.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form87.Designer.cs">
+      <DependentUpon>Form87.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form88.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form88.Designer.cs">
+      <DependentUpon>Form88.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChooseDateOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChooseDateOn.Designer.cs">
+      <DependentUpon>FormChooseDateOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewFileName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewFileName.Designer.cs">
+      <DependentUpon>FormNewFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportReguestForRepairSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportReguestForRepairSettings.Designer.cs">
+      <DependentUpon>FormReportReguestForRepairSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Abonent\FormJournalAbn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Abonent\FormJournalAbn.Designer.cs">
+      <DependentUpon>FormJournalAbn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DailyReport\ActDetection\FormJournalActDetection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DailyReport\ActDetection\FormJournalActDetection.Designer.cs">
+      <DependentUpon>FormJournalActDetection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DailyReport\JournalDamage\FormJournalDamage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DailyReport\JournalDamage\FormJournalDamage.Designer.cs">
+      <DependentUpon>FormJournalDamage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DailyReport\Reports\Approver.cs" />
+    <Compile Include="Forms\DailyReport\Reports\FormReportAccidents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DailyReport\Reports\FormReportAccidents.Designer.cs">
+      <DependentUpon>FormReportAccidents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DailyReport\Temperature\FormJournalTemperature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DailyReport\Temperature\FormJournalTemperature.Designer.cs">
+      <DependentUpon>FormJournalTemperature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DocTamplateReference\DoWorkAsyncArgs.cs" />
+    <Compile Include="Forms\DocTamplateReference\FormDocTamplateReference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DocTamplateReference\FormDocTamplateReference.Designer.cs">
+      <DependentUpon>FormDocTamplateReference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFileExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFileExplorer.Designer.cs">
+      <DependentUpon>FormFileExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFilter.Designer.cs">
+      <DependentUpon>FormFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormList.Designer.cs">
+      <DependentUpon>FormList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormODS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormODS.Designer.cs">
+      <DependentUpon>FormODS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\FormAddEditCalcCable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\FormAddEditCalcCable.Designer.cs">
+      <DependentUpon>FormAddEditCalcCable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\FormAddEditCalcTrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\FormAddEditCalcTrans.Designer.cs">
+      <DependentUpon>FormAddEditCalcTrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\FormJournalCalcLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\FormJournalCalcLoss.Designer.cs">
+      <DependentUpon>FormJournalCalcLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\Report\FormReportCalcLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\Report\FormReportCalcLoss.Designer.cs">
+      <DependentUpon>FormReportCalcLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\Report\FormReportCalcLossTrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalCalcLoss\Report\FormReportCalcLossTrans.Designer.cs">
+      <DependentUpon>FormReportCalcLossTrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalDefect\FormJDefect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalDefect\FormJDefect.Designer.cs">
+      <DependentUpon>FormJDefect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalExcavation\FormJournalExcavation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalExcavation\FormJournalExcavation.Designer.cs">
+      <DependentUpon>FormJournalExcavation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalOrder\FormJournalOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalOrder\FormJournalOrder.Designer.cs">
+      <DependentUpon>FormJournalOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalRelayProtectionAutomation\FormJournalRelayProtectionAutomation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalRelayProtectionAutomation\FormJournalRelayProtectionAutomation.Designer.cs">
+      <DependentUpon>FormJournalRelayProtectionAutomation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalRequestForRepair\FormJournalRequestForRepair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalRequestForRepair\FormJournalRequestForRepair.Designer.cs">
+      <DependentUpon>FormJournalRequestForRepair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalRequest\FormJournalRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalRequest\FormJournalRequest.Designer.cs">
+      <DependentUpon>FormJournalRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalTechnologicalFailures\FormTechnologicalFailures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalTechnologicalFailures\FormTechnologicalFailures.Designer.cs">
+      <DependentUpon>FormTechnologicalFailures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JournalUpdateProgram\FormJournalUpdateProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JournalUpdateProgram\FormJournalUpdateProgram.Designer.cs">
+      <DependentUpon>FormJournalUpdateProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Measurement\FormMeasurement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Measurement\FormMeasurement.Designer.cs">
+      <DependentUpon>FormMeasurement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Measurement\TreeObject.cs" />
+    <Compile Include="Forms\Measurement\TypeNode.cs" />
+    <Compile Include="Forms\Memorandums\FormBossUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Memorandums\FormBossUsers.Designer.cs">
+      <DependentUpon>FormBossUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Memorandums\FormMemorandumJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Memorandums\FormMemorandumJournal.Designer.cs">
+      <DependentUpon>FormMemorandumJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Memorandums\RowsLoading.cs" />
+    <Compile Include="Forms\Memorandums\TypeEmployee.cs" />
+    <Compile Include="Forms\Scheme\FormLinkAbnObjAndSchm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scheme\FormLinkAbnObjAndSchm.Designer.cs">
+      <DependentUpon>FormLinkAbnObjAndSchm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Acts\FormActElectricalInspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Acts\FormActElectricalInspection.Designer.cs">
+      <DependentUpon>FormActElectricalInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Acts\FormActPerformingTU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Acts\FormActPerformingTU.Designer.cs">
+      <DependentUpon>FormActPerformingTU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Acts\FormReportActElectricalInspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Acts\FormReportActElectricalInspection.Designer.cs">
+      <DependentUpon>FormReportActElectricalInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\ActTC\FormJournalActs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\ActTC\FormJournalActs.Designer.cs">
+      <DependentUpon>FormJournalActs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\ActTC\FormTCAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\ActTC\FormTCAddEdit.Designer.cs">
+      <DependentUpon>FormTCAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Consumers\FormDistributionConsumers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Consumers\FormDistributionConsumers.Designer.cs">
+      <DependentUpon>FormDistributionConsumers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Contract\Bar.cs" />
+    <Compile Include="Forms\TechnologicalConnection\Contract\FormJournalContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Contract\FormJournalContract.Designer.cs">
+      <DependentUpon>FormJournalContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\DataSetTC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionAddAbn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionAddAbn.Designer.cs">
+      <DependentUpon>FormTechConnectionAddAbn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionDocOutAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionDocOutAddEdit.Designer.cs">
+      <DependentUpon>FormTechConnectionDocOutAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionRequest.Designer.cs">
+      <DependentUpon>FormTechConnectionRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionRequestAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionRequestAddEdit.Designer.cs">
+      <DependentUpon>FormTechConnectionRequestAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionRequestMerge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\FormTechConnectionRequestMerge.Designer.cs">
+      <DependentUpon>FormTechConnectionRequestMerge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\MailTU\FormJournalMailTU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\MailTU\FormJournalMailTU.Designer.cs">
+      <DependentUpon>FormJournalMailTU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\RBP\FormAbnAktRBP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\RBP\FormAbnAktRBP.Designer.cs">
+      <DependentUpon>FormAbnAktRBP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\RBP\FormJournalActRBP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\RBP\FormJournalActRBP.Designer.cs">
+      <DependentUpon>FormJournalActRBP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\RBP\FormObjFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\RBP\FormObjFind.Designer.cs">
+      <DependentUpon>FormObjFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Rebinding\FormDocChangeSwitch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Rebinding\FormDocChangeSwitch.Designer.cs">
+      <DependentUpon>FormDocChangeSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Rebinding\FormJournalRebinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\Rebinding\FormJournalRebinding.Designer.cs">
+      <DependentUpon>FormJournalRebinding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\TU\FormJournalTU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\TU\FormJournalTU.Designer.cs">
+      <DependentUpon>FormJournalTU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\TU\FormTUAddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\TU\FormTUAddEdit.Designer.cs">
+      <DependentUpon>FormTUAddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\TU\GForm0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TechnologicalConnection\TU\GForm0.Designer.cs">
+      <DependentUpon>GForm0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GInterface0.cs" />
+    <Compile Include="GRP\UnloadingGWC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRP\UnloadingGWC.Designer.cs">
+      <DependentUpon>UnloadingGWC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkupConverter\HtmlFromXamlConverter.cs" />
+    <Compile Include="MarkupConverter\HtmlToXamlConverter.cs" />
+    <Compile Include="MarkupConverter\IMarkupConverter.cs" />
+    <Compile Include="MarkupConverter\MarkupConverter.cs" />
+    <Compile Include="MarkupConverter\RtfToHtmlConverter.cs" />
+    <Compile Include="PrivateImplementationDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\FormMergeAndMoveAbnObj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\FormMergeAndMoveAbnObj.Designer.cs">
+      <DependentUpon>FormMergeAndMoveAbnObj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Struct6.cs" />
+    <Compile Include="Struct7.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31\lSfgApatkdxsVcGcrktoFd.resx" />
+    <EmbeddedResource Include="Form0.resx">
+      <DependentUpon>Form0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocChangeOwnerShipAddEdit.resx">
+      <DependentUpon>FormDocChangeOwnerShipAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24.resx">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resx">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form26.resx">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form27.resx">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form28.resx">
+      <DependentUpon>Form28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJournalOrderAddEdit.resx">
+      <DependentUpon>FormJournalOrderAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form30.resx">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33.resx">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form36.resx">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form37.resx">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form38.resx">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form39.resx">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form40.resx">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form41.resx">
+      <DependentUpon>Form41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form42.resx">
+      <DependentUpon>Form42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form43.resx">
+      <DependentUpon>Form43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form44.resx">
+      <DependentUpon>Form44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form45.resx">
+      <DependentUpon>Form45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form46.resx">
+      <DependentUpon>Form46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form47.resx">
+      <DependentUpon>Form47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form48.resx">
+      <DependentUpon>Form48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form49.resx">
+      <DependentUpon>Form49.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form50.resx">
+      <DependentUpon>Form50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form51.resx">
+      <DependentUpon>Form51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form52.resx">
+      <DependentUpon>Form52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form53.resx">
+      <DependentUpon>Form53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form54.resx">
+      <DependentUpon>Form54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form55.resx">
+      <DependentUpon>Form55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form56.resx">
+      <DependentUpon>Form56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form57.resx">
+      <DependentUpon>Form57.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form58.resx">
+      <DependentUpon>Form58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExcavationAddEdit2.resx">
+      <DependentUpon>FormExcavationAddEdit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form60.resx">
+      <DependentUpon>Form60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form61.resx">
+      <DependentUpon>Form61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form62.resx">
+      <DependentUpon>Form62.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form63.resx">
+      <DependentUpon>Form63.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form64.resx">
+      <DependentUpon>Form64.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form65.resx">
+      <DependentUpon>Form65.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form66.resx">
+      <DependentUpon>Form66.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportAct.resx">
+      <DependentUpon>FormReportAct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form68.resx">
+      <DependentUpon>Form68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form69.resx">
+      <DependentUpon>Form69.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form70.resx">
+      <DependentUpon>Form70.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form71.resx">
+      <DependentUpon>Form71.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form72.resx">
+      <DependentUpon>Form72.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form73.resx">
+      <DependentUpon>Form73.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form74.resx">
+      <DependentUpon>Form74.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form75.resx">
+      <DependentUpon>Form75.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form76.resx">
+      <DependentUpon>Form76.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form77.resx">
+      <DependentUpon>Form77.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form78.resx">
+      <DependentUpon>Form78.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form79.resx">
+      <DependentUpon>Form79.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form80.resx">
+      <DependentUpon>Form80.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form81.resx">
+      <DependentUpon>Form81.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form82.resx">
+      <DependentUpon>Form82.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form83.resx">
+      <DependentUpon>Form83.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form84.resx">
+      <DependentUpon>Form84.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form85.resx">
+      <DependentUpon>Form85.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form86.resx">
+      <DependentUpon>Form86.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form87.resx">
+      <DependentUpon>Form87.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form88.resx">
+      <DependentUpon>Form88.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChooseDateOn.resx">
+      <DependentUpon>FormChooseDateOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewFileName.resx">
+      <DependentUpon>FormNewFileName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportReguestForRepairSettings.resx">
+      <DependentUpon>FormReportReguestForRepairSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Abonent\FormJournalAbn.resx">
+      <DependentUpon>FormJournalAbn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DailyReport\ActDetection\FormJournalActDetection.resx">
+      <DependentUpon>FormJournalActDetection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DailyReport\ActDetection\ReportActDetection.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\JournalDamage\FormJournalDamage.resx">
+      <DependentUpon>FormJournalDamage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DailyReport\Reports\FormReportAccidents.resx">
+      <DependentUpon>FormReportAccidents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportAccidents.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportAccidentsA3.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportDailyDefect.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportDailyDefectFull.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportDailyHV.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportDailyLV.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\ReportEmergencyShutdown.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\Reports\reportInterruptLV.rdlc" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\GetTransformerSchmObj.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\Report81Total.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportAccidents.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDailyDefect.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDailyDefectWithLocation.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDailyHV.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDailyLV.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDetectionCrashByMonth.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDetectionCrashByNetRegion.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDetectionNoAdmissKWTByNetReg.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDetectionReasonCrash.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\SqlScripts\ReportDetectionReasonCrashEquip.sql" />
+    <EmbeddedResource Include="Forms\DailyReport\Temperature\FormJournalTemperature.resx">
+      <DependentUpon>FormJournalTemperature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocTamplateReference\FormDocTamplateReference.resx">
+      <DependentUpon>FormDocTamplateReference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFileExplorer.resx">
+      <DependentUpon>FormFileExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFilter.resx">
+      <DependentUpon>FormFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormList.resx">
+      <DependentUpon>FormList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormODS.resx">
+      <DependentUpon>FormODS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalCalcLoss\FormAddEditCalcCable.resx">
+      <DependentUpon>FormAddEditCalcCable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalCalcLoss\FormAddEditCalcTrans.resx">
+      <DependentUpon>FormAddEditCalcTrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalCalcLoss\FormJournalCalcLoss.resx">
+      <DependentUpon>FormJournalCalcLoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\FormReportCalcLoss.resx">
+      <DependentUpon>FormReportCalcLoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\FormReportCalcLossTrans.resx">
+      <DependentUpon>FormReportCalcLossTrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportKL.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportKLIsolation.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportKL_old.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportTrans.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportTransHH.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportVL.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportVLIsolation.rdlc" />
+    <EmbeddedResource Include="Forms\JournalCalcLoss\Report\ReportVL_old.rdlc" />
+    <EmbeddedResource Include="Forms\JournalDefect\FormJDefect.resx">
+      <DependentUpon>FormJDefect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalDefect\ReportJDefect.rdlc" />
+    <EmbeddedResource Include="Forms\JournalExcavation\FormJournalExcavation.resx">
+      <DependentUpon>FormJournalExcavation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalExcavation\Reports\ReportExcavation.rdlc" />
+    <EmbeddedResource Include="Forms\JournalExcavation\Reports\ReportExcavationAct.rdlc" />
+    <EmbeddedResource Include="Forms\JournalExcavation\Reports\ReportExcavation_ver2.rdlc" />
+    <EmbeddedResource Include="Forms\JournalExcavation\Reports\SqlScript\ExcavationWithGroupingAddr.sql" />
+    <EmbeddedResource Include="Forms\JournalExcavation\Reports\SqlScript\ExcavationWithoutGroupingAddr.sql" />
+    <EmbeddedResource Include="Forms\JournalOrder\FormJournalOrder.resx">
+      <DependentUpon>FormJournalOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalRelayProtectionAutomation\FormJournalRelayProtectionAutomation.resx">
+      <DependentUpon>FormJournalRelayProtectionAutomation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalRelayProtectionAutomation\ReportRelayProtectionAutomation.rdlc" />
+    <EmbeddedResource Include="Forms\JournalRequestForRepair\FormJournalRequestForRepair.resx">
+      <DependentUpon>FormJournalRequestForRepair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalRequestForRepair\Reports\ReportrequestForRepairFull.rdlc" />
+    <EmbeddedResource Include="Forms\JournalRequestForRepair\Reports\ReportrequestForRepairFullPeriod.rdlc" />
+    <EmbeddedResource Include="Forms\JournalRequestForRepair\Reports\ReportrequestForRepairNoAddress.rdlc" />
+    <EmbeddedResource Include="Forms\JournalRequestForRepair\Reports\ReportrequestForRepairNoAddressPeriod.rdlc" />
+    <EmbeddedResource Include="Forms\JournalRequest\FormJournalRequest.resx">
+      <DependentUpon>FormJournalRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalRequest\ReportRequest.rdlc" />
+    <EmbeddedResource Include="Forms\JournalTechnologicalFailures\FormTechnologicalFailures.resx">
+      <DependentUpon>FormTechnologicalFailures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JournalTechnologicalFailures\ReportTechnologicalFailures.rdlc" />
+    <EmbeddedResource Include="Forms\JournalUpdateProgram\FormJournalUpdateProgram.resx">
+      <DependentUpon>FormJournalUpdateProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Measurement\FormMeasurement.resx">
+      <DependentUpon>FormMeasurement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Measurement\ReportAmountFreeCapacity.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportCoefficientIrregularity.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportCoefficientLoading.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportExcelessLoad.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportMeasHighVoltage.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportMeasLowVoltage.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportMeasLowVoltageSP.rdlc" />
+    <EmbeddedResource Include="Forms\Measurement\ReportMeasLowVoltageWithOutNameObj.rdlc" />
+    <EmbeddedResource Include="Forms\Memorandums\FormBossUsers.resx">
+      <DependentUpon>FormBossUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Memorandums\FormMemorandumJournal.resx">
+      <DependentUpon>FormMemorandumJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scheme\FormLinkAbnObjAndSchm.resx">
+      <DependentUpon>FormLinkAbnObjAndSchm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\FormActElectricalInspection.resx">
+      <DependentUpon>FormActElectricalInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\FormActPerformingTU.resx">
+      <DependentUpon>FormActPerformingTU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\FormReportActElectricalInspection.resx">
+      <DependentUpon>FormReportActElectricalInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\Reports\ActElectricalInspection.rdlc" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\Reports\ActElectricalInspection2.rdlc" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\Reports\ActPerformingTU.rdlc" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\Reports\ActPerformingTU2.rdlc" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Acts\Reports\ActTC.rdlc" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\ActTC\FormJournalActs.resx">
+      <DependentUpon>FormJournalActs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\ActTC\FormTCAddEdit.resx">
+      <DependentUpon>FormTCAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Consumers\FormDistributionConsumers.resx">
+      <DependentUpon>FormDistributionConsumers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Contract\FormJournalContract.resx">
+      <DependentUpon>FormJournalContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\FormTechConnectionAddAbn.resx">
+      <DependentUpon>FormTechConnectionAddAbn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\FormTechConnectionDocOutAddEdit.resx">
+      <DependentUpon>FormTechConnectionDocOutAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\FormTechConnectionRequest.resx">
+      <DependentUpon>FormTechConnectionRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\FormTechConnectionRequestAddEdit.resx">
+      <DependentUpon>FormTechConnectionRequestAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\FormTechConnectionRequestMerge.resx">
+      <DependentUpon>FormTechConnectionRequestMerge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\MailTU\FormJournalMailTU.resx">
+      <DependentUpon>FormJournalMailTU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\RBP\FormAbnAktRBP.resx">
+      <DependentUpon>FormAbnAktRBP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\RBP\FormJournalActRBP.resx">
+      <DependentUpon>FormJournalActRBP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\RBP\FormObjFind.resx">
+      <DependentUpon>FormObjFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Rebinding\FormDocChangeSwitch.resx">
+      <DependentUpon>FormDocChangeSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Rebinding\FormJournalRebinding.resx">
+      <DependentUpon>FormJournalRebinding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\Report\FileReports\ReportCountRequest.rdlc" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\SqlScripts\ChangeAbnAndAbnObjRequest.sql" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\SqlScripts\vDistributionConsumers.sql" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\SqlScripts\vTC_ChangeOwnership.sql" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\SqlScripts\vTC_ChangeSwitch.sql" />
+    <EmbeddedResource Include="Forms\TechnologicalConnection\TU\FormJournalTU.resx">
+      <DependentUpon>FormJournalTU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\TU\FormTUAddEdit.resx">
+      <DependentUpon>FormTUAddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TechnologicalConnection\TU\GForm0.resx">
+      <DependentUpon>GForm0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="g.resx" />
+    <EmbeddedResource Include="GRP\UnloadingGWC.resx">
+      <DependentUpon>UnloadingGWC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ApplicationCancelReport.rdlc" />
+    <EmbeddedResource Include="Reports\ApplicationReport.rdlc" />
+    <EmbeddedResource Include="Reports\ApplicationResumptionReport.rdlc" />
+    <EmbeddedResource Include="Reports\ODSReport.rdlc" />
+    <EmbeddedResource Include="Reports\ReportOrder.rdlc" />
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\FormMergeAndMoveAbnObj.resx">
+      <DependentUpon>FormMergeAndMoveAbnObj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\MergeAbn.sql" />
+    <EmbeddedResource Include="Service\MergeAbnObj.sql" />
+    <EmbeddedResource Include="Service\MoveAbnObj.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Forms\TechnologicalConnection\DataSetTC.xsc">
+      <DependentUpon>DataSetTC.xsd</DependentUpon>
+    </None>
+    <None Include="Forms\TechnologicalConnection\DataSetTC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Forms\TechnologicalConnection\DataSetTC.xss">
+      <DependentUpon>DataSetTC.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
